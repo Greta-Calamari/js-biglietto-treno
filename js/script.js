@@ -16,4 +16,4 @@ if (userAge >= 65){
     console.log(ticketPrice / 100 * 20 - ticketPrice)
 } 
 
-document.getElementById('output').innerHTML = (ticketPrice / 100 * 20 - ticketPrice);
+document.getElementById('output').innerHTML = (Math.floor(ticketPrice / 100 * 20 - ticketPrice));
