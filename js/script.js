@@ -1,13 +1,13 @@
-let numeroKm = parseInt (prompt('quanti chilometri vuoi percorrere?'));
+let numeroKm = parseInt(prompt('quanti chilometri vuoi percorrere?'));
 console.log(numeroKm);
 
-let userAge = parseInt (prompt('quanti anni hai?'));
+let userAge = parseInt(prompt('quanti anni hai?'));
 console.log(userAge);
 
 let ticketPrice = (numeroKm * 0.21);
 console.log(ticketPrice);
 
-let scontoSenior = (ticketPrice / 100 * 40;
+let scontoSenior = (ticketPrice / 100 * 40);
 let scontoMinore = (ticketPrice / 100 * 20);
 
 
