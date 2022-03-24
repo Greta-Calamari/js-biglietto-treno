@@ -26,5 +26,11 @@ if (userAge >= 65){
 
 
 
-
+// A[Chiedo all'utente il numero di km] --> B[Chiedo all'utente l'età del passeggero]
+// B --> C[Calcolo il prezzo del biglietto a 0.21 al km]
+// C --> D{L'età del passeggero è <= a 18 o >= a 65}
+// D -->|vero| E[sconto del 20% se <= a 18, sconto del 40% se >= a 65]
+// D -->|falso| F[Nessuno sconto]
+// E --> G[output finale]
+// F --> G[output finale]
 
