@@ -11,15 +11,20 @@ let scontoSenior = (ticketPrice / 100 * 40);
 let scontoMinore = (ticketPrice / 100 * 20);
 
 if (userAge >= 65){
-console.log(ticketPrice - scontoSenior);
+    document.getElementById('output').innerHTML = (ticketPrice - scontoSenior)+ '€';
+    console.log(ticketPrice - scontoSenior);
 
-}else{
-    console.log(numeroKm * 0.21);
-    
-}if (userAge < 18){
+}else if (userAge < 18){
+    document.getElementById('output').innerHTML = (ticketPrice - scontoMinore) + '€';
     console.log(ticketPrice - scontoMinore);
-} 
+    
+}else 
+  document.getElementById('output').innerHTML = ticketPrice + '€';
+  console.log(ticketPrice);
+   
+    
 
 
 
-document.getElementById('output').innerHTML = (ticketPrice - scontoSenior,ticketPrice - scontoMinore,ticketPrice );
+
+
