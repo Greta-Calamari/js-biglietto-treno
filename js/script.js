@@ -18,18 +18,18 @@ if (isNaN(userAge) && isNaN(numeroKm)){
 
 else if (userAge >= 65){
     document.getElementById('output').innerHTML = (ticketPrice - scontoSenior)+ '€';
-    console.log(ticketPrice - scontoSenior);
+    console.log((ticketPrice - scontoSenior).toFixed(2));
     scontoApplicato = '40%'
     
 
 
 }else if (userAge < 18){
     document.getElementById('output').innerHTML = (ticketPrice - scontoMinore) + '€';
-    console.log(ticketPrice - scontoMinore);
+    console.log((ticketPrice - scontoMinore).toFixed(2));
     scontoApplicato = '20%'
 }else { 
     document.getElementById('output').innerHTML = ticketPrice + '€';
-    console.log(ticketPrice);
+    console.log((ticketPrice).toFixed(2));
     scontoApplicato = 'Non hai diritto ad uno sconto';
 }
   
