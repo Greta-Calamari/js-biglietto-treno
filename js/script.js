@@ -21,4 +21,5 @@ console.log(ticketPrice - scontoSenior);
 } 
 
 
-document.getElementById('output').innerHTML = ((ticketPrice - scontoMinore,ticketPrice - scontoSenior ));
+
+document.getElementById('output').innerHTML = (ticketPrice - scontoSenior,ticketPrice - scontoMinore,ticketPrice );
