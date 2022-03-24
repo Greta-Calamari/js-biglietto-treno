@@ -7,13 +7,15 @@ console.log(userAge);
 let ticketPrice = (numeroKm * 0.21);
 console.log(ticketPrice);
 
-if (userAge > 65){
+if (userAge >= 65){
     console.log(ticketPrice / 100 * 40 - ticketPrice)
 
 }else{
     console.log(numeroKm * 0.21)
 }
+if else(userAge < 18){
+    console.log(ticketPrice / 100 * 20 - ticketPrice)
+} 
 
 
 
-if
